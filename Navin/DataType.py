@@ -6,6 +6,7 @@ from unicodedata import numeric
 #      -float
 #      -complex
 #      -bool
+#      -none
 
 num1 = 5
 num2 =4.5
@@ -48,3 +49,9 @@ print(list(range(10)))
 print(list(range(0 ,10 ,2)))
 print(list(range(0 ,10 ,2)))
 print(type(list(range(10))))
+
+d ={'navin':'samsung','rahul':'iphone','kiran': 'onepluse'}
+print(type(d), d)
+print(d['rahul'])
+print(d.values())
+print(d.get('kiran'))
